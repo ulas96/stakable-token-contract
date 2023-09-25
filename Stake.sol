@@ -9,25 +9,25 @@ import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 contract StakableToken is IERC20, Ownable {
     using SafeMath for uint256;
 
-    string private _name;
-    string private _symbol;
-    uint8 private _decimals;
-    uint256 private _totalSupply;
+    string public _name;
+    string public _symbol;
+    uint8 public _decimals;
+    uint256 public _totalSupply;
 
-    mapping(address => uint256) private _balances;
-    mapping(address => mapping(address => uint256)) private _allowances;
+    mapping(address => uint256) public _balances;
+    mapping(address => mapping(address => uint256)) public _allowances;
 
-    uint256 private _stakingDuration;
-    uint256 private _rewardRate;
-    uint256 private _lastRewardTimestamp;
-    uint256 private _totalRewards;
+    uint256 public _stakingDuration;
+    uint256 public _rewardRate;
+    uint256 public _lastRewardTimestamp;
+    uint256 public _totalRewards;
 
     struct StakingInfo {
         uint256 amount;
         uint256 startTimestamp;
     }
 
-    mapping(address => StakingInfo) private _stakedBalances;
+    mapping(address => StakingInfo) public _stakedBalances;
 
     constructor(
         string memory name_,
