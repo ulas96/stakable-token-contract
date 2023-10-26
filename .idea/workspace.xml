@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3249dda1-a39d-4052-8319-e8c9028ca090" name="Changes" comment="" />
+    <list default="true" id="3249dda1-a39d-4052-8319-e8c9028ca090" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -37,6 +41,8 @@
       <updated>1696222111958</updated>
       <workItem from="1696222113470" duration="452000" />
       <workItem from="1698127105289" duration="12000" />
+      <workItem from="1698151679453" duration="466000" />
+      <workItem from="1698152186996" duration="79000" />
     </task>
     <servers />
   </component>
